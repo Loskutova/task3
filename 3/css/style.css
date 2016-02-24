@@ -1,0 +1,163 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family:Calibri;
+	height: 100%;
+	background: #F8F8F8;
+}
+html
+{
+
+	height: 100%;
+}
+
+.container{
+   
+	background: #FFFFFF;
+	width: 1000px;
+	margin:0 auto;
+	padding: 0 15px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.clearfix:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+
+/*HEADER*/
+.logo img {
+	
+	padding:30px 40px 37px 50px;
+}
+nav{
+	background: #555555;
+ 	margin:0 30px;
+ 
+}
+nav ul {
+
+ 	text-align:left;
+ 	margin: 0;
+ 	padding:0;
+
+}
+nav ul li {
+border-left:1px solid transparent;
+border-right:1px solid transparent; 
+    list-style: none;
+ 	display: inline-block;
+ 	vertical-align: top;
+}
+nav ul li a{
+
+	display: block;
+	padding: 8px 37px;
+	text-decoration: none;
+	color:white;
+	font-size: 20px;
+}
+ nav ul li:hover{
+	background:#363636;
+	border-left:1px solid #696969;
+	border-right:1px solid #696969;
+ }
+ /*SIDEBAR*/
+
+
+.sidebar{
+	width: 238px;
+    float: left;
+    margin: 40px 30px;
+	
+}
+.sidebar ul li {
+	width: 100%;
+	list-style: none;
+    border:1px solid lightgrey;
+    border-bottom: none;
+}
+    
+
+ .sidebar li:last-child{
+    border-bottom:1px solid lightgrey;
+}
+
+.sidebar ul li a{
+
+	display: block;
+	padding: 8px 30px;
+	text-decoration: none;
+	color:grey;
+}
+.sidebar a:hover{
+	padding-left:45px;
+	color:black;
+}
+/*CONTENT*/
+.content{
+
+    margin-right: 29px;
+    float: right;
+ 	padding-top: 40px;
+}
+.imgg{
+	
+    display: block;
+	margin-bottom: 30px;
+	}
+	.imgg img
+	{     
+		display: block;
+		border:1px solid lightgrey;
+		margin: 0 auto;
+	}
+
+ .text {
+ 	
+ 	float: right;
+    width: 570px;
+    line-height: 1.5;
+ 	
+ }
+
+ /*FOOTER*/
+ footer{
+
+	background:#CFCFCF ;
+ 	margin:182px 30px 0px 30px; 
+
+}
+
+footer ul {
+	
+ 	text-align:left;
+ 	margin: 0;
+ 	padding:0;
+}
+footer ul li {
+
+    list-style: none;
+ 	display: inline-block;
+ 	
+}
+footer ul li a{
+	display: block;
+	padding: 8px 37px;
+	text-decoration: none;
+	color:black;
+	font-size: 20px;
+}
+
+footer li a:hover{
+	text-decoration: underline;
+}
+span{
+	float: right;
+	display: block;
+  padding-right: 10px;
+    padding-top: 13px;
+}
